@@ -47,7 +47,7 @@ This notebook contains:
 4. Run all cells sequentially.
 
 **To unzip and load a dataset in Colab:**
-```python
+ python
 from zipfile import ZipFile
 zip_path = "/content/your_dataset.zip"
 with ZipFile(zip_path, 'r') as zip_ref:
@@ -55,7 +55,7 @@ with ZipFile(zip_path, 'r') as zip_ref:
 
 ### ✅ Option 2: Jupyter Notebook (Local)
 
-```bash
+
 # 1. Install dependencies
 pip install torch torchvision matplotlib
 
