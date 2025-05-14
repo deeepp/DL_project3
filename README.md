@@ -66,7 +66,6 @@ with ZipFile(zip_path, 'r') as zip_ref:
 
 3. Run each cell sequentially. GPU acceleration is recommended for PGD and Patch attacks.
 
----
 
 ## 🎯 Project Goals
 
@@ -87,7 +86,3 @@ with ZipFile(zip_path, 'r') as zip_ref:
 - 500 images subset from ImageNet-1K (100 classes)
 - Images preprocessed with ImageNet normalization
 
-## 📚 References
-- [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) (Goodfellow et al., 2014)
-- [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083) (Madry et al., 2017)
-- [The Limitations of Deep Learning in Adversarial Settings](https://arxiv.org/abs/1511.07528) (Papernot et al., 2015)
