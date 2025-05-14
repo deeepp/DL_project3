@@ -53,18 +53,17 @@ zip_path = "/content/your_dataset.zip"
 with ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall("/content/")
 
-### ✅ Option 2: Jupyter Notebook
-1. Install dependencies:
-    ```bash
-    pip install torch torchvision matplotlib
-    ```
+### ✅ Option 2: Jupyter Notebook (Local)
 
-2. Open the notebook:
-    ```bash
-    jupyter notebook Adversarial_Attacks.ipynb
-    ```
+```bash
+# 1. Install dependencies
+pip install torch torchvision matplotlib
 
-3. Run each cell sequentially. GPU acceleration is recommended for PGD and Patch attacks.
+# 2. Open the notebook
+jupyter notebook Adversarial_Attacks_Final.ipynb
+
+# 3. Run each cell sequentially.
+# GPU acceleration is recommended for PGD and Patch attacks
 
 
 ## 🎯 Project Goals
