@@ -17,12 +17,13 @@ This notebook contains:
 
 ## 📊 Key Results
 
-| Attack Type     | Accuracy (↓) | Accuracy Drop | Transferability to DenseNet-121 |
-|-----------------|--------------|----------------|-------------------------------|
-| Clean Images    | **70.40%**   | —              | —                             |
-| FGSM Attack     | 39.00%       | ↓ 44.60%       | 94.37%                         |
-| PGD Attack      | 38.80%       | ↓ 44.89%       | 84.33%                         |
-| Patch Attack    | 27.20%       | ↓ 61.36%       | 61.47%                         |
+| **Attack Type** | **Accuracy (↓)** | **Accuracy Drop** | **Transferability to DenseNet-121** |
+|------------------|------------------|--------------------|-------------------------------------|
+| Clean Images     | 70.40%           | —                  | —                                   |
+| FGSM Attack      | 39.00%           | ↓ 31.40%           | 94.37%                              |
+| PGD Attack       | 38.80%           | ↓ 31.60%           | 84.33%                              |
+| Patch Attack     | 27.80%           | ↓ 42.60%           | 75.53%                              |
+
 
 > ✅ **Observation:** The Patch Attack was highly effective, reducing accuracy the most despite modifying only a small image region.
 
